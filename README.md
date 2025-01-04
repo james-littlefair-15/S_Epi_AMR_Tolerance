@@ -1,10 +1,10 @@
-# S_Epi_AMR_Tolerance
+# Staphylococus epidermidis AMR Tolerance Study
 
 This repository contains code and data from my contribution to a study on antimicrobial resistance (AMR) tolerance in *Staphylococcus epidermidis*. For full methods, refer to the original manuscript or contact the corresponding author (carolin.kobras@path.ox.ac.uk).
 
-## Usage `find_amino_acid_differences.py`
+## Usage `find_amino_acid_differences.py` Script
 
-This script identifies amino acid differences and insertions/deletions between sequences in a protein multiple sequence alignment with respect to a specified reference.
+This script identifies amino acid differences and insertions/deletions between sequences in a protein multiple sequence alignment with respect to a specified reference. This was used on core genes in the study to identiify variants associated with resistant phenotypes.
 
 ```bash
 python3 find_amino_acid_differences.py [-h] fasta_file ref_header output_file
@@ -22,4 +22,10 @@ options:
 
 ## Data
 
-Data (supplementary material) used to generate gene detection results have been included in the 'data' folder of this repository.
+Data (supplementary material) referred to in the methods section have been included in the 'data' folder of this repository.
+
+These include:
+  - S1: a file containing the source for the gene queries used in the study
+  - S2: the protein fasta file countanining these queries
+  - S3: the gene coordinates in the original strain assemblies
+  - S4: the gene presence-absence matrix, with putitive frameshifts, premature stop codons, and low
