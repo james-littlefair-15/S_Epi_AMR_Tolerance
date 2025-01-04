@@ -28,4 +28,4 @@ These include:
   - S1: a file containing the source for the gene queries used in the study
   - S2: the protein fasta file countanining these queries
   - S3: the gene coordinates in the original strain assemblies
-  - S4: the gene presence-absence matrix, with putitive frameshifts, premature stop codons, and low
+  - S4: the gene presence-absence matrix, with putitive frameshifts, premature stop codons, and low identity
