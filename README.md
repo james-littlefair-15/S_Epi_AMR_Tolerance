@@ -28,7 +28,7 @@ Data (supplementary material) referred to in the methods section have been inclu
 
 These include:
   - S1: spreadsheet containing the source for the gene queries used in the study
-  - S2: the protein fasta file countanining these queries
+  - S2: the protein fasta file countaining these queries
   - S3: the gene coordinates in the original strain assemblies
   - S4: the gene presence-absence matrix, with putitive frameshifts, premature stop codons, and low identity
   - S5: the variants for each core AMR-associated gene
