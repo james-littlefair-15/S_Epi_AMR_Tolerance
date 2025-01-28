@@ -10,9 +10,11 @@ This script identifies amino acid differences and insertions/deletions between s
 python3 find_amino_acid_differences.py [-h] fasta_file ref_header output_file
 
 positional arguments:
-  fasta_file   Input multiple sequence alignment protein FASTA file. Please note that it is expected that the header will contain the strain name appended
-               with an equals sign e.g. >AnythingYouWant=MyStrainName. The multiple alignment is expected to be in the same orientation for each
-               strain starting at the N-terminus (i.e. with methionine as the leftmost amino acid)
+  fasta_file   Input multiple sequence alignment protein FASTA file. Please note that it is expected
+               that the header will contain the strain name appended with an equals sign
+               e.g. >AnythingYouWant=MyStrainName. The multiple alignment is expected to be in the
+               same orientation for each strain starting at the N-terminus (i.e. with methionine as
+               the leftmost amino acid)
   ref_header   Name of the reference strain appended to respective header e.g. MyStrainName
   output_file  Output TSV file to store the results
 
